@@ -23,3 +23,7 @@ se ejecuta uno por uno de izquierda a derecha
 ## TRANSITION
 
 *transition(ns)* el parametro se da en segundos, ejemplo (1s). Usado con el hover.
+
+## KEYFRAME
+*animation-name: name* ejemplo: @keyframe name{ }
+*animation-duration: ns* ejemplo: animation-duration: 3s; tiempo de duracion de la animacion
