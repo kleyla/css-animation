@@ -46,12 +46,23 @@ body {
   /* animation-delay: 2s; */
   animation-iteration-count: infinite;
 }
+.luigi {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  animation-name: drive;
+  animation-duration: 7s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
 /* keyframes */
 @keyframes drive {
   from {
     transform: translateX(-200px);
   }
   to {
-    transform: translateX(1500px);
+    transform: translateX(1400px);
   }
 }

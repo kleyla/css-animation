@@ -34,3 +34,6 @@ se ejecuta uno por uno de izquierda a derecha
 *animation-iteration-count: 3;* numero de veces que se realiza la animacion
 *animation-iteration-count: infinite;* la animacion se realiza infinitamente.
 
+*animation-direction: reverse;* mueve el objeto de manera inversa.
+
+*animation-direction: alternate;* alterna el moviento: normal y reverse
