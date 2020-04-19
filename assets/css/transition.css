@@ -2,23 +2,18 @@ body {
   background: lightblue;
   text-align: center;
 }
-
-.wrapper {
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-}
 .circle {
   width: 100px;
   padding: 50px 0;
   line-height: 0;
   margin: 60px auto;
-  background: pink;
+  background: blue;
   border-radius: 50px;
   cursor: pointer;
   color: #fff;
-  transition: 5s;
+  transition: 1s;
 }
 .circle:hover {
   background: salmon;
+  transform: rotate(180deg);
 }

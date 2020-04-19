@@ -11,7 +11,7 @@
 *scaleY(y%)* lo escala en el eje y
 
 ### rotate
-*rotate(x, y)* 
+*rotate(ndeg)* lo rota en sentido de las agujas del reloj.
 *rotateX(xdeg)* rota a lo largo del eje x ejemplo:
 (90deg , 180deg)
 *rotateY(y)* rota a lo largo del eje y
@@ -19,3 +19,7 @@
 
 **transform: translateX(200px) rotateZ(90deg) scale(2);**
 se ejecuta uno por uno de izquierda a derecha
+
+## TRANSITION
+
+*transition(ns)* el parametro se da en segundos, ejemplo (1s). Usado con el hover.
