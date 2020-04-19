@@ -57,7 +57,28 @@ body {
   animation-iteration-count: infinite;
   animation-direction: reverse;
 }
-
+.cloud {
+  position: absolute;
+}
+.cloud:nth-child(1) {
+  width: 200px;
+  top: 120px;
+  opacity: 0.5;
+  /* de aqui->  */
+  /* animation-name: wind;
+  animation-duration: 80s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse; */
+  /* a aqui */
+  /* es igual a la siguiente linea */
+  animation: wind 80s linear infinite reverse;
+}
+.cloud:nth-child(2) {
+  width: 300px;
+  top: 0;
+  animation: wind 50s linear infinite;
+}
 /* keyframes */
 @keyframes drive {
   from {
@@ -65,5 +86,14 @@ body {
   }
   to {
     transform: translateX(1400px);
+  }
+}
+
+@keyframes wind {
+  from {
+    left: -300px;
+  }
+  to {
+    left: 100%;
   }
 }
