@@ -1,0 +1,15 @@
+body {
+  background: lightblue;
+}
+.image1 {
+  transform: translate(200px, 50px);
+}
+.image2 {
+  transform: scale(0.7, 1);
+}
+.image3 {
+  transform: rotateZ(90deg);
+}
+.image4 {
+  transform: translateX(200px) rotateZ(90deg) scale(2);
+}
