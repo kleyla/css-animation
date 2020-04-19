@@ -31,4 +31,6 @@ se ejecuta uno por uno de izquierda a derecha
 *animation-delay: 2s;* retrasa el efecto el tiempo indicado.
 *animation-fill-mode: backwards;* luego de terminar la animacion lo posiciona en el punto inicial
 *animation-fill-mode: both;* deja el objeto en la ultima posicion
+*animation-iteration-count: 3;* numero de veces que se realiza la animacion
+*animation-iteration-count: infinite;* la animacion se realiza infinitamente.
 

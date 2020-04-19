@@ -41,16 +41,17 @@ body {
   top: -40px;
   left: 0;
   animation-name: drive;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
-  animation-delay: 2s;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  /* animation-delay: 2s; */
+  animation-iteration-count: infinite;
 }
 /* keyframes */
 @keyframes drive {
   from {
-    transform: translateX(200px);
+    transform: translateX(-200px);
   }
   to {
-    transform: translateX(500px);
+    transform: translateX(1500px);
   }
 }
