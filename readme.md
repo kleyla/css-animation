@@ -37,3 +37,9 @@ se ejecuta uno por uno de izquierda a derecha
 *animation-direction: reverse;* mueve el objeto de manera inversa.
 
 *animation-direction: alternate;* alterna el moviento: normal y reverse
+
+*animation-timing-function: ease;* ritmo del movimiento por defecto. Este va de rapido y al final lento.
+*animation-timing-function: linear;* el ritmo es constante, linear.
+*animation-timing-function: ease-in;* el ritmo va de lento a rapido.
+
+

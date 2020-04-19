@@ -45,6 +45,7 @@ body {
   animation-fill-mode: both;
   /* animation-delay: 2s; */
   animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 .luigi {
   position: absolute;
