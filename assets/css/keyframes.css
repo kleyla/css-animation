@@ -40,22 +40,24 @@ body {
   position: absolute;
   top: -40px;
   left: 0;
-  animation-name: drive;
-  animation-duration: 5s;
-  animation-fill-mode: both;
+  /* animation-name: drive; */
+  /* animation-duration: 5s; */
+  /* animation-fill-mode: both; */
   /* animation-delay: 2s; */
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  /* animation-iteration-count: infinite; */
+  /* animation-timing-function: ease-in-out; */
+  animation: drive 5s both infinite linear, jump 0.3s 1.2s ease;
 }
 .luigi {
   position: absolute;
   top: 60px;
   left: 0;
-  animation-name: drive;
+  /* animation-name: drive;
   animation-duration: 7s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
-  animation-direction: reverse;
+  animation-direction: reverse; */
+  animation: drive 7s both infinite linear;
 }
 .cloud {
   position: absolute;
@@ -79,6 +81,7 @@ body {
   top: 0;
   animation: wind 50s linear infinite;
 }
+
 /* keyframes */
 @keyframes drive {
   from {
@@ -95,5 +98,16 @@ body {
   }
   to {
     left: 100%;
+  }
+}
+@keyframes jump {
+  0% {
+    top: -40%;
+  }
+  50% {
+    top: -100px;
+  }
+  100% {
+    top: -40px;
   }
 }
